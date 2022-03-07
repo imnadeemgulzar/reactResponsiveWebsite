@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.932);
+}
+#footerPara {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0;
+  color: #fff;
+}
+.copyright {
+  color: #fff;
+  padding: 1rem 0;
+}

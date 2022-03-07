@@ -1,0 +1,17 @@
+.homeContainer {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(8, 116, 116, 0.836),
+      rgba(7, 73, 73, 0.856)
+    ),
+    url(../assets/homebg.jpg);
+
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}

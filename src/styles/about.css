@@ -1,0 +1,19 @@
+.about {
+  max-height: 100vh;
+  color: black;
+  background-image: url("../assets/about.jpg");
+  background-size: cover;
+}
+.aboutHeading {
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(0, 0, 0, 0.863);
+  text-transform: capitalize;
+}
+.aboutPara {
+  line-height: 1.7;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.863);
+}

@@ -1,0 +1,41 @@
+.contactCont {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to left top,
+    rgba(51, 221, 85, 0.863),
+    rgba(137, 43, 226, 0.849)
+  );
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(137, 43, 226, 0.849),
+    rgba(51, 221, 85, 0.863)
+  );
+  border-radius: 0.5rem;
+}
+.youremail,
+.yourname,
+.submit,
+#pizza {
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  margin-bottom: 3rem;
+  padding: 0.4rem 1rem;
+  border-radius: 0.4rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+.submit {
+  padding: 0.2rem 1rem;
+  background-color: rgb(192, 142, 75);
+  color: #fff;
+}

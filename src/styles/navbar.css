@@ -1,0 +1,28 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 2rem;
+}
+.logo {
+  height: 4rem;
+  width: 4rem;
+}
+#list {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+/* #item {
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.932);
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+} */
+.navleft,
+.navright {
+  align-items: center;
+  display: flex;
+}
